@@ -23,7 +23,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = ['test10-murex.vercel.app','ornate-liger-b79b5a.netlify.app']
+ALLOWED_HOSTS = [
+    'www.dr-mostafa-mahmoud.online',
+    'dr-mostafa-mahmoud.online',
+    'test10-murex.vercel.app',
+    'ornate-liger-b79b5a.netlify.app'
+]
 
 
 # Application definition
