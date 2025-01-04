@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = ['.vercel.app','localhost','127.0.0.1']
+ALLOWED_HOSTS = ['test10-murex.vercel.app','ornate-liger-b79b5a.netlify.app']
 
 
 # Application definition
@@ -52,7 +52,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    '.netlify.app',
+    'https://ornate-liger-b79b5a.netlify.app',
 ]
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
