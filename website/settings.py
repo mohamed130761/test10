@@ -53,6 +53,7 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     'https://ornate-liger-b79b5a.netlify.app',
+    'https://test10-murex.vercel.app',
 ]
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
